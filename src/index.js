@@ -53,7 +53,7 @@ function submitVote(healthy, foodName) {
       }
     });
     
-    xhr.open("POST", process.env.POST_API);
+    xhr.open("POST", "https://nh19a6fy22.execute-api.us-east-1.amazonaws.com/default/vote");
     
     xhr.send(data);
   } else {
@@ -76,7 +76,7 @@ function setVisible(foodName) {
 function getData() {
   const xhr = new XMLHttpRequest()
   //open a get request with the remote server URL
-  xhr.open("GET", process.env.GET_API)
+  xhr.open("GET", "https://nh19a6fy22.execute-api.us-east-1.amazonaws.com/default/junkfoodData")
   //send the Http request
   xhr.send()
 
