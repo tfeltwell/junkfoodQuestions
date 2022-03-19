@@ -91,6 +91,4 @@ function getData() {
 }
 
 console.log("loaded");
-console.log(process.env.GET_API);
-console.log(process.env.POST_API);
 getData();
