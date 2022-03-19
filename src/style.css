@@ -5,8 +5,9 @@
 .question {
   text-align: center;
   border: 1px solid #000;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  border-radius: 1em;
+  margin: 1em 1em 1em 1em;
+  padding-bottom: 1em;
 }
 
 .title {

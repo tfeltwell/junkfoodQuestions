@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import 'purecss';
 import './style.css';
 
 let allData = {};
