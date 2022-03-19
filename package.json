@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --env production --env VERCEL_ENV=$VERCEL_ENV",
+    "build": "webpack --mode production --env VERCEL_ENV=$VERCEL_ENV",
     "watch": "webpack --watch",
     "serve": "webpack serve --mode development"
   },
