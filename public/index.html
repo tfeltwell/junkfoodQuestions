@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Fast Food Faux Pas</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/grids-responsive-min.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="intro">
+        <h1>Fast Food Faux Pas</h1>
+        <p>Restaurant menus can often be filled with fancy wording that verbally dresses up the food before you eat it. This can make it tricky to know whether what you're eating is healthy or not. Below is a set of food descriptions and we'd like you to rate whether the food is healthy or not from the description. Once you've voted you'll be able to see what other people voted! Bonne appetite!</p>
+      </div>
+
+      <div class="question">
+        <h3 class="title">Menu 1</h3>
+        <p>Slow cooked pork shoulder, hand pulled and mixed with BBQ sauce.</p>
+        <div class="vote">
+          <div id="pulledpork-buttons">
+            <button class="yes pure-button button-success" id="btn-y-1">A vision of health</button>
+            <button class="no pure-button button-error" id="btn-n-1">Fatty shoulder!</button>
+          </div>
+        </div>
+        <div class="answer" id="pulledpork">
+          <div class="vote-number" id="healthy0">Healthy Vote Number</div>
+          <div class="vote-number" id="unhealthy0">Unhealthy Vote Number</div>
+        </div>
+      </div>
+      <div class="question">
+        <h3 class="title">Menu 2</h3>
+        <p>Chicken breast, grilled, cooked with British curry spices and yoghurt, in a sandwhich on white or brown bread.</p>
+        <div class="vote">
+          <div id="coronation-buttons">
+            <button class="yes pure-button button-success">Healthy - it has brown bread</button>
+            <button class="no pure-button button-error">Meat, yoghurt, bread - unhealthy!</button>
+          </div>
+        </div>
+        <div class="answer" id="coronation">
+          <div class="vote-number" id="healthy1">Healthy Vote Number</div>
+          <div class="vote-number" id="unhealthy1">Unhealthy Vote Number</div>
+        </div>
+      </div>
+      <div class="question">
+        <h3 class="title">Menu 3</h3>
+        <p>Potato match stick fingers, gently parboiled, followed by a short fry to produce a crisp exterior and fluffy interior.</p>
+        <div class="vote">
+          <div id="chip-buttons">
+            <button class="yes pure-button button-success">Healthy</button>
+            <button class="no pure-button button-error">Unhealthy</button>
+          </div>
+        </div>
+        <div class="answer" id="chip">
+          <div class="vote-number" id="healthy2">Healthy Vote Number</div>
+          <div class="vote-number" id="unhealthy2">Unhealthy Vote Number</div>
+        </div>
+      </div>
+      <div class="question">
+        <h3 class="title">Menu 4</h3>
+        <p>Angus Longhorn beef mince pattie, griddled, served with hand-made brioche bun and a lettuce, tomato and onion accompaniment.</p>
+        <div class="vote">
+          <div id="burger-buttons">
+            <button class="yes pure-button button-success">Healthy</button>
+            <button class="no pure-button button-error">Unhealthy</button>
+          </div>
+        </div>
+        <div class="answer" id="burger">
+          <div class="vote-number" id="healthy3">Healthy Vote Number</div>
+          <div class="vote-number" id="unhealthy3">Unhealthy Vote Number</div>
+        </div>
+      </div>
+      <div class="question">
+        <h3 class="title">Menu 5</h3>
+        <p>Medley of Rocket, Mizuna, Sweet Gem and Romaine Lettuce leaves.</p>
+        <div class="vote">
+          <div id="lettuce-buttons">
+            <button class="yes pure-button button-success">Healthy5</button>
+            <button class="no pure-button button-error">Unhealthy5</button>
+          </div>
+        </div>
+        <div class="answer" id="lettuce">
+          <div class="vote-number" id="healthy4">Healthy Vote Number</div>
+          <div class="vote-number" id="unhealthy4">Unhealthy Vote Number</div>
+        </div>
+      </div>
+      <div class="question">
+        <h3 class="title">Menu 6</h3>
+        <p>Levain Bakery style chocolate chip and roasted walnut cookies.</p>
+        <div class="vote">
+          <div id="cookies-buttons">
+            <button class="yes pure-button button-success">Healthy6</button>
+            <button class="no pure-button button-error">Unhealthy6</button>
+          </div>
+        </div>
+        <div class="answer" id="cookies">
+          <div class="vote-number" id="healthy5">Healthy Vote Number</div>
+          <div class="vote-number" id="unhealthy5">Unhealthy Vote Number</div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
