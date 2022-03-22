@@ -18,6 +18,10 @@
 
 }
 
+.vote-number { 
+  display: inline-block;
+}
+
 .answer {
   border: 1px solid #000;
   /* margin: 0.5em 1em 0.5em 1em; */
